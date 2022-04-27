@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1127719028168E8700143BD3 /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1127718F28168E8700143BD3 /* ColorView.swift */; };
+		115F61892819439E00CAAB14 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115F61882819439E00CAAB14 /* TextFieldView.swift */; };
 		1163A7C72812F6EA009D0984 /* ColorizedAppSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1163A7C62812F6EA009D0984 /* ColorizedAppSwiftUIApp.swift */; };
 		1163A7C92812F6EA009D0984 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1163A7C82812F6EA009D0984 /* ContentView.swift */; };
 		1163A7CB2812F6F5009D0984 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1163A7CA2812F6F5009D0984 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		1127718F28168E8700143BD3 /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
+		115F61882819439E00CAAB14 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
 		1163A7C32812F6EA009D0984 /* ColorizedAppSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorizedAppSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1163A7C62812F6EA009D0984 /* ColorizedAppSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorizedAppSwiftUIApp.swift; sourceTree = "<group>"; };
 		1163A7C82812F6EA009D0984 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				1163A7C62812F6EA009D0984 /* ColorizedAppSwiftUIApp.swift */,
 				1163A7C82812F6EA009D0984 /* ContentView.swift */,
 				119626D12816BEEF002FF9D5 /* ColorSliderView.swift */,
+				115F61882819439E00CAAB14 /* TextFieldView.swift */,
 				1127718F28168E8700143BD3 /* ColorView.swift */,
 				1163A7CA2812F6F5009D0984 /* Assets.xcassets */,
 				1163A7CF2812F6F5009D0984 /* Info.plist */,
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1127719028168E8700143BD3 /* ColorView.swift in Sources */,
+				115F61892819439E00CAAB14 /* TextFieldView.swift in Sources */,
 				119626D22816BEEF002FF9D5 /* ColorSliderView.swift in Sources */,
 				1163A7C92812F6EA009D0984 /* ContentView.swift in Sources */,
 				1163A7C72812F6EA009D0984 /* ColorizedAppSwiftUIApp.swift in Sources */,

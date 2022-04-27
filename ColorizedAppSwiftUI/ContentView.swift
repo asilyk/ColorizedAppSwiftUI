@@ -20,7 +20,7 @@ struct ContentView: View {
                 .ignoresSafeArea()
                 .onTapGesture { focusedColor = nil }
             VStack(spacing: 48) {
-                ColorView(redColor: redValue, greenColor: greenValue, blueColor: blueValue)
+                ColorView(red: redValue, green: greenValue, blue: blueValue)
 
                 Spacer()
 
@@ -45,8 +45,10 @@ struct ContentView: View {
     }
 }
 
-//struct ContentView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        ContentView()
-//    }
-//}
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ZStack {
+            ContentView()
+        }
+    }
+}
